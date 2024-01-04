@@ -2,6 +2,7 @@
 1. 현재 위치한 폴더를 git 폴더로 적용한다
 
 ``git init``
+<img src="\image\1.jpg"/>
 
 ![Alt text](image/1.jpg)
 숨겨진 폴더로 .git 폴더가 생성됨을 볼 수 있다.

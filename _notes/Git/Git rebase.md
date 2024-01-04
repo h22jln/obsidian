@@ -1,3 +1,5 @@
+<img src="image/13.jpg"/>
+
 ![Alt text](image/13.jpg)
 이 네개의 커밋 로그들을 요리조리 실습해본다
 
