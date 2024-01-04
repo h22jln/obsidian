@@ -23,5 +23,14 @@ permalink: /
 </ul>
 
 ***
-## Git
+## 💚 Git 
 [[Git 시작하기]]
+[[Git reset]]
+[[Git amend]]
+[[Git rebase]]
+
+## 💜 Obsidian
+[[옵시디언 Git으로 Publish하기]]
+
+
+
