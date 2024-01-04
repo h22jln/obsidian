@@ -5,10 +5,10 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# 안녕하세요 🍟
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  신희진의 옵시디언 메모장입니다
 </p>
 
 This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
