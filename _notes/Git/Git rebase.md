@@ -1,6 +1,4 @@
-<img src="image/13.jpg"/>
-
-![Alt text](image/13.jpg)
+![커밋 로그 이미지](image/13.jpg)
 이 네개의 커밋 로그들을 요리조리 실습해본다
 
 ***
@@ -9,13 +7,13 @@
 HEAD 뒤의 숫자는 HEAD를 기준으로 과거 몇 개를 #rebase 할건지에 관한 값
 
 
-![Alt text](image/14.jpg)
+![rebase vi 에디터](image/14.jpg)
 
 rebase로 접근하면 vi에디터가 나온다
 ``i``를 입력하면 INSERT MODE 접근 가능
 
 
-![Alt text](image/15.jpg)
+![rebase vi 에디터](image/15.jpg)
 
 맨 위의 하나만 남기고 ``d``로 바꿔주었다.
 esc > :wq 로 저장후 빠져나온다.
