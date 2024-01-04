@@ -3,7 +3,11 @@ layout: page
 title: About
 permalink: /about
 ---
+## 👩‍💻
 
-*This is an about page.*
+블로그 https://blog.naver.com/9902102
 
-Feel free to tell the world about what you love! 😍
+
+
+
+Github https://github.com/h22jln
