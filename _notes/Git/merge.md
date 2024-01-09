@@ -29,6 +29,10 @@ master branch로 이동 후
 ``git merge topic(합치고자 하는 브랜치명)`` 입력하면 
 master와 topic branch가 merge 되었음을 확인 가능하다.
 
+
+*\*fast-forward merge시에는 commit log 없이 바로 merge된다.
+log를 남기고 싶다면 ``git merge --no-ff branch명``*
+
 ***
 
 ##### ==3-way-merge== 실습
@@ -53,8 +57,10 @@ vi 에디터가 나오게 되는데
 
 ![Alt text](image/46.jpg)
 
+***
 
-
+``git merge --squash 브랜치명``
+[[Git rebase(로그)||rebase]]와 같이 merge시 바뀐 내용은 한번에 가져오고 커밋 메시지는 1개만 쓸 수 있게 된다
 
 
 
