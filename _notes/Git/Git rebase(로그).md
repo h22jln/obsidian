@@ -27,7 +27,7 @@ esc > :wq 로 저장후 빠져나온다.
 
 
 삭제된 파일을 되살리고 싶다면
-[[Git reset#^210a29|git reset --hard]]로 되살린다.
+[[Git reset#^210a29||git reset --hard]]로 되살린다.
 
 ![Alt text](image/17.jpg)
 
