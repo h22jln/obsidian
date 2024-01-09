@@ -1,4 +1,4 @@
-두 개의 branch가 같은 부분을 수정한 경우 [[merge#^d2c0b9||merge]]시 충돌나게 된다.
+두 개의 branch가 같은 부분을 수정한 경우 [[merge|merge]]시 충돌나게 된다.
 
 
 master branch에서 하나의 파일을 만든다

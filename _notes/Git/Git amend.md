@@ -1,4 +1,4 @@
-[[Git reset#^39a59d||reset soft]]와 다르지만 비슷한 기능을 한다.
+[[Git reset|reset soft]]와 다르지만 비슷한 기능을 한다.
 
 git amend 옵션을 통해 커밋 메시지를 다시 쓸 수 있게 된다
 

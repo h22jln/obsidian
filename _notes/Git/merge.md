@@ -60,7 +60,7 @@ vi 에디터가 나오게 되는데
 ***
 
 ``git merge --squash 브랜치명``
-[[Git rebase(로그)||rebase]]와 같이 merge시 바뀐 내용은 한번에 가져오고 커밋 메시지는 1개만 쓸 수 있게 된다
+[[Git rebase(로그)|rebase]]와 같이 merge시 바뀐 내용은 한번에 가져오고 커밋 메시지는 1개만 쓸 수 있게 된다
 
 
 
