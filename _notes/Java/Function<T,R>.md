@@ -45,4 +45,3 @@ plus10_lambda.apply(1)
 	```
 	System.out.println(plus10_lambda.andThen(multifly2).apply(2));
 	```
-	
