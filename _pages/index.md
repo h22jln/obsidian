@@ -11,6 +11,9 @@ permalink: /
   신희진의 옵시디언 메모장입니다
 </p>
 
+***
+
+{% include notes_graph.html %}
 
 ***
 
