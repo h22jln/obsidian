@@ -11,11 +11,32 @@ permalink: /
   신희진의 옵시디언 메모장입니다
 </p>
 
+***
+
+<ul>
+  {% for folder in site.notes %}
+    <li>
+      <strong>{{ folder.name }}</strong>
+      <ul>
+        {% assign folder_notes = folder | where: "type", "note" %}
+        {% for note in folder_notes %}
+          <li>
+            <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
+
+
+***
+
 <strong>Recently updated notes</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes limit: 5 %}
+  {% for note in recent_notes %}
     <li>
       {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
