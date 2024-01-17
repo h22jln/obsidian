@@ -13,7 +13,7 @@ permalink: /
 
 ***
 
-{% for folder in site.notes %}
+{% for folder in site %}
   <li>
     <strong>{{ folder.name }}</strong>
     <ul>
