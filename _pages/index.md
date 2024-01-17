@@ -11,21 +11,6 @@ permalink: /
   신희진의 옵시디언 메모장입니다
 </p>
 
-***
-
-{% for folder in site %}
-  <li>
-    <strong>{{ folder.name }}</strong>
-    <ul>
-      {% for note in folder.notes %}
-        <li>
-          <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </li>
-{% endfor %}
-
 
 ***
 
@@ -39,16 +24,6 @@ permalink: /
     </li>
   {% endfor %}
 </ul>
-
-***
-## 💚 Git 
-[[Git 시작하기]]
-[[Git reset]]
-[[Git amend]]
-[[Git rebase]]
-
-## 💜 Obsidian
-[[옵시디언 Git으로 Publish하기]]
 
 
 
