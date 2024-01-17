@@ -18,7 +18,7 @@ permalink: /
     <li>
       <strong>{{ folder.name }}</strong>
       <ul>
-        {% assign folder_notes = folder | where: "type", "note" %}
+        {% assign folder_notes = folder | where: 'type', 'note' %}
         {% for note in folder_notes %}
           <li>
             <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
